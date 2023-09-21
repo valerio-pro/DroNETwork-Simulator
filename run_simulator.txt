@@ -1,0 +1,8 @@
+- install and use python 3.7.9
+- command: pip install virtualenv
+- go inside the directory of the simulator
+- command: virtualenv venv
+- command: .\venv\Scripts\activate 
+- command: pip install -r requirements.txt
+- run project with: python -m src.main 
+(before running the project run .\venv\Scripts\activate on windows and source ./venv/Scripts/activate on Linux)
